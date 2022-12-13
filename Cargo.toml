@@ -2,6 +2,15 @@
 name = "rumpuild"
 version = "0.1.0"
 edition = "2021"
+authors = ["citation-dev <citation@m2en.dev>"]
+publish = false
+description = "CLI to register and manage application command of citation"
+homepage = "https://citation.m2en.dev"
+documentation = "https://citation.m2en.dev/rumpuild/"
+repository = "https://github.com/citation-dev/rumpulid"
+license = "MIT License"
+readme = "README.md"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
