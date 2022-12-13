@@ -1,0 +1,22 @@
+name: build
+
+# TODO: 正式リリース後、トリガーに制限を設ける
+on: push
+
+env:
+  CARGO_TEAM_COLOR: always
+
+jobs:
+  build:
+    name: Build by cargo
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build
+        run: cargo build --verbose
+
+      # TODO: テストが用意できたらコメントアウトする (or 新しく設ける)
+      # - name: Run tests
+      #   run: cargo test --verbose
