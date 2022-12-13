@@ -1,6 +1,6 @@
 ---
 name: Send to feature request 
-about: rumpuildに機能追加の要望を提出します。
+about: rumpulidに機能追加の要望を提出します。
 title: ''
 labels: ✨enhancement
 assignees: ''

@@ -1,6 +1,6 @@
 ---
-name: Report to rumpuild bug
-about: rumpuildのバグを報告します。
+name: Report to rumpulid bug
+about: rumpulidのバグを報告します。
 title: ''
 labels: 🐛bug
 assignees: ''
